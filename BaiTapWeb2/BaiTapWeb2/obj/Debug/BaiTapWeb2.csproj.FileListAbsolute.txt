@@ -1,0 +1,10 @@
+E:\Ky1_nam4\Lap_trinh_web\BaiTapWeb2\BaiTapWeb2\BaiTapWeb2\bin\Debug\BaiTapWeb2.exe.config
+E:\Ky1_nam4\Lap_trinh_web\BaiTapWeb2\BaiTapWeb2\BaiTapWeb2\bin\Debug\BaiTapWeb2.exe
+E:\Ky1_nam4\Lap_trinh_web\BaiTapWeb2\BaiTapWeb2\BaiTapWeb2\bin\Debug\BaiTapWeb2.pdb
+E:\Ky1_nam4\Lap_trinh_web\BaiTapWeb2\BaiTapWeb2\BaiTapWeb2\obj\Debug\BaiTapWeb2.csproj.AssemblyReference.cache
+E:\Ky1_nam4\Lap_trinh_web\BaiTapWeb2\BaiTapWeb2\BaiTapWeb2\obj\Debug\AESWinFormApp.Form1.resources
+E:\Ky1_nam4\Lap_trinh_web\BaiTapWeb2\BaiTapWeb2\BaiTapWeb2\obj\Debug\BaiTapWeb2.Properties.Resources.resources
+E:\Ky1_nam4\Lap_trinh_web\BaiTapWeb2\BaiTapWeb2\BaiTapWeb2\obj\Debug\BaiTapWeb2.csproj.GenerateResource.cache
+E:\Ky1_nam4\Lap_trinh_web\BaiTapWeb2\BaiTapWeb2\BaiTapWeb2\obj\Debug\BaiTapWeb2.csproj.CoreCompileInputs.cache
+E:\Ky1_nam4\Lap_trinh_web\BaiTapWeb2\BaiTapWeb2\BaiTapWeb2\obj\Debug\BaiTapWeb2.exe
+E:\Ky1_nam4\Lap_trinh_web\BaiTapWeb2\BaiTapWeb2\BaiTapWeb2\obj\Debug\BaiTapWeb2.pdb
