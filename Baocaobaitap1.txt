@@ -1,0 +1,19 @@
+Bài 1: Mã hóa AES
+	Mã hóa AES (Advanced Encryption Standard) là một thuật toán mã hóa đối xứng (Symmetric Encryption) tiêu chuẩn của Hoa Kỳ, được sử dụng rộng rãi trên toàn thế giới để bảo vệ dữ liệu. "Đối xứng" có nghĩa là cùng một khóa (Key) bí mật sẽ được sử dụng cho cả quá trình mã hóa dữ liệu thô và giải mã dữ liệu đã mã hóa về trạng thái ban đầu.
+	AES xử lý dữ liệu theo các khối cố định (Block Cipher) có kích thước 128 bits (16 bytes).
+	Để quá trình mã hóa và giải mã bằng AES hoạt động an toàn và chuẩn xác, hệ thống bao gồm 4 thành phần chính:
+1. Khóa bí mật (Secret Key): Người dùng tự nhập
+2. Vector khởi tạo (IV - Initialization Vector): Là một chuỗi ngẫu nhiên sinh ra cùng khóa
+3. Dữ liệu đầu vào và đầu ra (Plaintext & Ciphertext)
+4. Chế độ vận hành khối (Cipher Mode) & Đệm (Padding)
+
+Kiểm tra yêu cầu: 
+Tạo 1 file trống 1GB và viết code sinh dữ liệu ngẫu nhiên thay vì đi tìm, tải file lớn
+Sau khi thực hiện yêu câu:
+=> Kết luận: 
+	1. Tính toàn vẹn và độ chính xác của dữ liệu (Data Integrity)
+		File sau khi qua chu trình mã hóa bằng thuật toán AES-256 và giải mã ngược lại thu được kích thước byte hoàn toàn trùng khớp so với file gốc ban đầu.   
+		=> Kết luận: Chương trình triển khai chính xác thuật toán mã hóa đối xứng AES kết hợp Vector khởi tạo (IV) và đệm dữ liệu, đảm bảo dữ liệu không bị thất thoát, biến dạng hay lỗi cấu trúc trong quá trình xử lý.   	2. Hiệu năng và tốc độ xử lý 
+		Tốc độ xử lý mã hóa đạt 369.78 MB/s và tốc độ giải mã đạt 282.00 MB/s. Toàn bộ quá trình mã hóa/giải mã file dung lượng lớn 1 GB hoàn tất chỉ trong vòng dưới 4 giây cho mã hóa và 3.63s cho giải mã. Sự chênh lệch nhẹ giữa tốc độ mã hóa và giải mã xuất phát từ trạng thái bộ nhớ đệm của hệ điều hành và độ rảnh đĩa cứng tại thời điểm thực thi. 
+	3. Đánh giá tối ưu hóa kiến trúc phần mềm
+		Tối ưu bộ nhớ RAM: Nhờ ứng dụng cơ chế luồng dữ liệu đọc/ghi từng khối (block) trực tiếp từ đĩa cứng, ứng dụng xử lý thành công file dung lượng 1 GB mà không gặp phải lỗi tràn bộ nhớ hay treo giao diện. 		Tối ưu phần cứng CPU: Thời gian xử lý cực nhanh chứng tỏ ứng dụng đã tận dụng tốt phần cứng máy tính hiện đại.   

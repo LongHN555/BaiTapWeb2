@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{1AF07DD9-F33F-4EB9-9DF2-3D982B7D66BF}|BaiTapWeb2\\BaiTapWeb2.csproj|solutionrelative:baitapweb2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AF07DD9-F33F-4EB9-9DF2-3D982B7D66BF}|BaiTapWeb2\\BaiTapWeb2.csproj|e:\\ky1_nam4\\lap_trinh_web\\baitapweb2\\baitapweb2\\baitapweb2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AF07DD9-F33F-4EB9-9DF2-3D982B7D66BF}|BaiTapWeb2\\BaiTapWeb2.csproj|solutionrelative:baitapweb2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AF07DD9-F33F-4EB9-9DF2-3D982B7D66BF}|BaiTapWeb2\\BaiTapWeb2.csproj|E:\\Ky1_nam4\\Lap_trinh_web\\BaiTapWeb2\\BaiTapWeb2\\baitapweb2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1AF07DD9-F33F-4EB9-9DF2-3D982B7D66BF}|BaiTapWeb2\\BaiTapWeb2.csproj|solutionrelative:baitapweb2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AF07DD9-F33F-4EB9-9DF2-3D982B7D66BF}|BaiTapWeb2\\BaiTapWeb2.csproj|e:\\ky1_nam4\\lap_trinh_web\\baitapweb2\\baitapweb2\\baitapweb2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1AF07DD9-F33F-4EB9-9DF2-3D982B7D66BF}|BaiTapWeb2\\BaiTapWeb2.csproj|solutionrelative:baitapweb2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1AF07DD9-F33F-4EB9-9DF2-3D982B7D66BF}|BaiTapWeb2\\BaiTapWeb2.csproj|E:\\Ky1_nam4\\Lap_trinh_web\\BaiTapWeb2\\BaiTapWeb2\\baitapweb2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AF07DD9-F33F-4EB9-9DF2-3D982B7D66BF}|BaiTapWeb2\\BaiTapWeb2.csproj|solutionrelative:baitapweb2\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,8 +21,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 83,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 317,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,26 +34,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "E:\\Ky1_nam4\\Lap_trinh_web\\BaiTapWeb2\\BaiTapWeb2\\BaiTapWeb2\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "BaiTapWeb2\\Form1.Designer.cs",
-              "ToolTip": "E:\\Ky1_nam4\\Lap_trinh_web\\BaiTapWeb2\\BaiTapWeb2\\BaiTapWeb2\\Form1.Designer.cs",
-              "RelativeToolTip": "BaiTapWeb2\\Form1.Designer.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAApwEgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-23T08:10:06.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "E:\\Ky1_nam4\\Lap_trinh_web\\BaiTapWeb2\\BaiTapWeb2\\BaiTapWeb2\\Form1.cs",
               "RelativeDocumentMoniker": "BaiTapWeb2\\Form1.cs",
               "ToolTip": "E:\\Ky1_nam4\\Lap_trinh_web\\BaiTapWeb2\\BaiTapWeb2\\BaiTapWeb2\\Form1.cs",
               "RelativeToolTip": "BaiTapWeb2\\Form1.cs",
-              "ViewState": "AgIAAJAAAAAAMzMzMzMnwJcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAPMAAAAAAAAAAAAvwP0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-23T08:06:46.35Z",
               "EditorCaption": ""
@@ -61,6 +48,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "E:\\Ky1_nam4\\Lap_trinh_web\\BaiTapWeb2\\BaiTapWeb2\\BaiTapWeb2\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "BaiTapWeb2\\Form1.Designer.cs",
+              "ToolTip": "E:\\Ky1_nam4\\Lap_trinh_web\\BaiTapWeb2\\BaiTapWeb2\\BaiTapWeb2\\Form1.Designer.cs",
+              "RelativeToolTip": "BaiTapWeb2\\Form1.Designer.cs",
+              "ViewState": "AgIAAAUAAACYmZmZmZkjwBMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T08:10:06.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "E:\\Ky1_nam4\\Lap_trinh_web\\BaiTapWeb2\\BaiTapWeb2\\BaiTapWeb2\\Form1.cs",
               "RelativeDocumentMoniker": "BaiTapWeb2\\Form1.cs",

@@ -35,6 +35,8 @@
             this.btnEncryptText = new System.Windows.Forms.Button();
             this.txtOutputText = new System.Windows.Forms.TextBox();
             this.btnEncryptFile = new System.Windows.Forms.Button();
+            this.btnDecryptFile = new System.Windows.Forms.Button();
+            this.btnDecryptText = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtCustomKey
@@ -90,7 +92,7 @@
             // 
             // btnEncryptFile
             // 
-            this.btnEncryptFile.Location = new System.Drawing.Point(265, 280);
+            this.btnEncryptFile.Location = new System.Drawing.Point(142, 281);
             this.btnEncryptFile.Name = "btnEncryptFile";
             this.btnEncryptFile.Size = new System.Drawing.Size(177, 51);
             this.btnEncryptFile.TabIndex = 6;
@@ -98,11 +100,33 @@
             this.btnEncryptFile.UseVisualStyleBackColor = true;
             this.btnEncryptFile.Click += new System.EventHandler(this.btnEncryptFile_Click);
             // 
+            // btnDecryptFile
+            // 
+            this.btnDecryptFile.Location = new System.Drawing.Point(380, 281);
+            this.btnDecryptFile.Name = "btnDecryptFile";
+            this.btnDecryptFile.Size = new System.Drawing.Size(192, 51);
+            this.btnDecryptFile.TabIndex = 7;
+            this.btnDecryptFile.Text = "Giải mã và so sánh file";
+            this.btnDecryptFile.UseVisualStyleBackColor = true;
+            this.btnDecryptFile.Click += new System.EventHandler(this.btnDecryptFile_Click);
+            // 
+            // btnDecryptText
+            // 
+            this.btnDecryptText.Location = new System.Drawing.Point(610, 227);
+            this.btnDecryptText.Name = "btnDecryptText";
+            this.btnDecryptText.Size = new System.Drawing.Size(139, 34);
+            this.btnDecryptText.TabIndex = 8;
+            this.btnDecryptText.Text = "Giải mã văn bản";
+            this.btnDecryptText.UseVisualStyleBackColor = true;
+            this.btnDecryptText.Click += new System.EventHandler(this.btnDecryptText_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnDecryptText);
+            this.Controls.Add(this.btnDecryptFile);
             this.Controls.Add(this.btnEncryptFile);
             this.Controls.Add(this.txtOutputText);
             this.Controls.Add(this.btnEncryptText);
@@ -126,6 +150,8 @@
         private System.Windows.Forms.Button btnEncryptText;
         private System.Windows.Forms.TextBox txtOutputText;
         private System.Windows.Forms.Button btnEncryptFile;
+        private System.Windows.Forms.Button btnDecryptFile;
+        private System.Windows.Forms.Button btnDecryptText;
     }
 }
 
