@@ -30,3 +30,11 @@ Bài 2: Mã hóa RSA: là một thuật toán mã hóa bất đối xứng, đư
 		- Dữ liệu mã hóa (Ciphertext): Dữ liệu dạng mảng byte đã qua xử lý mã hóa RSA (thường hiển thị ở dạng mã hóa Base64 hoặc Hex).
 	3. Cơ sở toán học (Số nguyên tố lớn)
 		- RSA dựa trên độ khó của bài toán phân tích một số nguyên lớn thành thừa số nguyên tố.
+
+Về mặt kỹ thuật, chữ ký số là kết quả mã hóa giá trị băm (Hash) của dữ liệu bằng Khóa bí mật (Private Key) RSA:
+	Quy trình ký và kiểm tra (Verify):
+		Bên Ký (Dùng Private Key): Tính băm dữ liệu gốc Hash = SHA256(Data). Mã hóa mảng Hash đó bằng Private Key RSA, thu được chuỗi chữ ký số.
+		Bên Nhận/Xác Minh (Dùng Public Key): Giải mã chữ ký số bằng Public Key RSA của bên ký, thu được giá trị băm Hash_1. Tự tính giá trị băm của dữ liệu nhận được Hash_2 = SHA256 (Data\_Nhan). So sánh: Nếu Hash_1 == Hash_2 thì chữ ký hợp lệ! (Đúng người ký và file chưa bị chỉnh sửa).
+
+=> Với mong muốn cùng một dữ liệu + cùng một private key nhưng mỗi lần ký cho ra các chữ ký số khác nhau. Có thể thử giải pháp: Trước khi băm dữ liệu gốc sẽ tự động chèn thêm một đoạn văn bản - Thời gian lúc ký, vào cuối hàm băm. Sau đó thực hiện như bình thường. 
+	Lưu ý: Bên nhận muốn xác minh thành công thì phải biết được chính xác khoảng thời gian nào đã được dùng lúc ký. Nếu không gửi kèm, bên nhận sẽ chỉ băm dữ liệu gốc M, kết quả băm thu được sẽ không trùng  và hệ thống sẽ báo chữ ký không hợp lệ (Invalid Signature).
