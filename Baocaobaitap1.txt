@@ -17,3 +17,16 @@ Sau khi thực hiện yêu câu:
 		Tốc độ xử lý mã hóa đạt 369.78 MB/s và tốc độ giải mã đạt 282.00 MB/s. Toàn bộ quá trình mã hóa/giải mã file dung lượng lớn 1 GB hoàn tất chỉ trong vòng dưới 4 giây cho mã hóa và 3.63s cho giải mã. Sự chênh lệch nhẹ giữa tốc độ mã hóa và giải mã xuất phát từ trạng thái bộ nhớ đệm của hệ điều hành và độ rảnh đĩa cứng tại thời điểm thực thi. 
 	3. Đánh giá tối ưu hóa kiến trúc phần mềm
 		Tối ưu bộ nhớ RAM: Nhờ ứng dụng cơ chế luồng dữ liệu đọc/ghi từng khối (block) trực tiếp từ đĩa cứng, ứng dụng xử lý thành công file dung lượng 1 GB mà không gặp phải lỗi tràn bộ nhớ hay treo giao diện. 		Tối ưu phần cứng CPU: Thời gian xử lý cực nhanh chứng tỏ ứng dụng đã tận dụng tốt phần cứng máy tính hiện đại.   
+
+
+Bài 2: Mã hóa RSA: là một thuật toán mã hóa bất đối xứng, được sử dụng phổ biến để bảo mật dữ liệu truyền tải trên mạng máy tính và xác thực chữ ký số. RSA sử dụng một cặp khóa liên kết toán học với nhau (KeyPair).
+
+	Mã hóa RSA bao gồm 3 thành phần chính:
+	1. Cặp khóa (Key Pair)
+		- Khóa công khai (Public Key): Được chia sẻ công khai cho bất kỳ ai. Dùng để mã hóa dữ liệu hoặc kiểm tra chữ ký số.
+		- Khóa bí mật (Private Key): Được giữ bí mật tuyệt đối bởi người sở hữu. Dùng để giải mã dữ liệu (đã được mã hóa bằng Public Key tương ứng) hoặc tạo chữ ký số.
+	2. Dữ liệu đầu vào và đầu ra
+		- Văn bản gốc (Plaintext): Thông điệp hoặc dữ liệu thô ban đầu cần bảo vệ.
+		- Dữ liệu mã hóa (Ciphertext): Dữ liệu dạng mảng byte đã qua xử lý mã hóa RSA (thường hiển thị ở dạng mã hóa Base64 hoặc Hex).
+	3. Cơ sở toán học (Số nguyên tố lớn)
+		- RSA dựa trên độ khó của bài toán phân tích một số nguyên lớn thành thừa số nguyên tố.
